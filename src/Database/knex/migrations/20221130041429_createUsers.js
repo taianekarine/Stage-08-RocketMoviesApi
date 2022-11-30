@@ -9,4 +9,4 @@ table.timestamp('updated_at').default(knex.fn.now());
 
 });
 
-exports.down = knex.schema.dropTable('createUsers');
+exports.down = knex => knex.schema.dropTable('createUsers');

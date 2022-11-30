@@ -10,4 +10,4 @@ table.timestamp('updated_at').default(knex.fn.now());
 
 });
 
-exports.down = knex.schema.dropTable('createNotes');
+exports.down = knex => knex.schema.dropTable('createNotes');

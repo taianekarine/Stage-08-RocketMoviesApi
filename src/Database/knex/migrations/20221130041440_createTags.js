@@ -6,4 +6,4 @@ exports.up = knex => knex.schema.createTable('createTags', table => {
   table.integer('name').notNullable();
 });
 
-exports.down = knex.schema.dropTable('createTags');
+exports.down = knex => knex.schema.dropTable('createTags');
