@@ -5,7 +5,7 @@ const AppError = require ('./Utils/AppError');
 const express = require('express');
 const routes = require('./Routes');
 
-const uploadConfig = require('./configs/upload');
+const uploadConfig = require('./Configs/upload');
 const cors = require('cors');
 
 

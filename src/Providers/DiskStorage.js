@@ -1,7 +1,7 @@
 // Vai ser salvo e deletado o arquivo aqui.
 const fs = require('fs');
 const path = require('path');
-const uploadConfig = require('../configs/upload');
+const uploadConfig = require('../Configs/upload');
 
 
 class DiskStorage {
