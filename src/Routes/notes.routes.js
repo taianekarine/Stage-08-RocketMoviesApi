@@ -14,6 +14,4 @@ notesRoutes.delete('/:id', notesController.delete);
 notesRoutes.post('/', notesController.create);
 
 
-
-
 module.exports = notesRoutes;
